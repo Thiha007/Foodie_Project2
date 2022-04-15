@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Padauk:wght@400;700&display=swap');
+
+$font-family-sans-serif: 'Montserrat', 'Padauk',sans-serif;
+$primary: green;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// custom css
+
+.brandIcon{
+  width: 40px;
+  height: 40px;
+}
+.serviceSvg{
+  width: 65px;
+  height: 65px;
+  fill: var(--bs-primary);
+}
+.header{
+  background-color: #ffffffb5;
+  backdrop-filter: blur(15px) contrast(130%);
+  z-index: 1;
+}
+.scroll_to_top{
+  right: 50px;
+  bottom: 50px;
+}
